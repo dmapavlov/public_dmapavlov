@@ -2,7 +2,7 @@ import tkinter as tk
 
 window = tk.Tk()
 window.title('Введите домашний адрес')
-window.geometry('360x200')
+window.geometry('360x300')
 window.resizable(width=False, height=False)
 
 frame_name = tk.Frame()
@@ -67,5 +67,7 @@ button_clear = tk.Button(master=frame_buttons, text='Очистить')
 button_clear.pack(side='right', padx=5, pady=5)
 button_send = tk.Button(master=frame_buttons, text='Отправить')
 button_send.pack(side='right', padx=5, pady=5)
+
+
 
 window.mainloop()
