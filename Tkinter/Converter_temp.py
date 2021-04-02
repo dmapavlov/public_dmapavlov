@@ -14,7 +14,7 @@ def convert_f_to_c():
 end_temperature = tk.Entry(width=10)
 lbl_fah = tk.Label(text="\N{DEGREE FAHRENHEIT}", width=5)
 btn_convert = tk.Button(text='\N{RIGHTWARDS BLACK ARROW}', width=5, command=convert_f_to_c)
-lbl_celsius = tk.Label(width=5)
+lbl_celsius = tk.Label(width=12)
 
 end_temperature.grid(row=0, column=0)
 lbl_fah.grid(row=0, column=1, sticky='w')
